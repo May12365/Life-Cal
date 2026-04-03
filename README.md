@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/May12365/Life-Cal)
 ![GitHub stars](https://img.shields.io/github/stars/May12365/Life-Cal?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/May12365/Life-Cal?style=social)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 A structured **Life Calculation System** designed to process user input and compute meaningful life-related metrics using algorithmic logic.
 This project demonstrates problem-solving, modular design, and real-world data processing concepts.
@@ -165,23 +165,12 @@ Contributions are welcome:
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is created for **educational and portfolio purposes**.
 
 ---
 
 ## 👤 Author
 
 * GitHub: https://github.com/May12365
-
----
-
-## ⭐ Portfolio Highlights
-
-This project demonstrates:
-
-* Strong **problem-solving and algorithm design**
-* Understanding of **data processing workflows**
-* Ability to structure a **modular application**
-* Practical experience in **JavaScript-based computation systems**
 
 ---
