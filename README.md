@@ -3,79 +3,82 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/May12365/Life-Cal)
 ![GitHub stars](https://img.shields.io/github/stars/May12365/Life-Cal?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/May12365/Life-Cal?style=social)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-A structured **Life Calculation System** designed to analyze and compute life-related metrics through algorithmic logic and data-driven approaches.  
-This project demonstrates problem-solving, modular design, and real-world data handling.
+A structured **Life Calculation System** designed to process user input and compute meaningful life-related metrics using algorithmic logic.
+This project demonstrates problem-solving, modular design, and real-world data processing concepts.
 
 ---
 
 ## 🌐 Live Demo
 
-👉 (Add your deployed link here if available)
+👉 https://<your-username>.github.io/Life-Cal/
 
 ---
 
 ## 📌 Project Overview
 
-This project focuses on building a system that processes user input and computes meaningful life-related outputs (e.g., time, age, or calculated metrics) using structured logic.
+**Life-Cal** is a lightweight web-based application that calculates life-related values (such as time-based metrics or derived results) from user input.
 
-Inspired by real-world data analysis workflows, the system is designed with:
-- Clear separation of logic and data
-- Scalable structure for future extensions
-- Maintainable and readable codebase
+The project is designed with a focus on:
+
+* Clean and maintainable code structure
+* Logical separation between input, processing, and output
+* Scalability for future feature expansion
 
 ---
 
 ## ✨ Features
 
-- 📊 Dynamic calculation based on user input  
-- 🧮 Algorithm-driven processing  
-- 🧠 Logical data transformation  
-- 📁 Modular code structure  
-- ⚡ Fast and lightweight execution  
+* 📊 Dynamic calculations based on user input
+* 🧮 Algorithm-driven processing
+* ⚡ Instant result rendering
+* 📁 Modular and organized codebase
+* 💻 Simple and user-friendly interface
 
 ---
 
 ## 🧠 System Workflow
 
-The application follows a structured pipeline similar to real-world data systems:
+The system follows a structured processing pipeline:
 
 1. **Input Handling**
-   - Accepts user-provided data (e.g., date, values)
+
+   * Collects user input (e.g., date or numerical values)
 
 2. **Data Processing**
-   - Validates and transforms input into usable format
+
+   * Validates and transforms input into a usable format
 
 3. **Computation Engine**
-   - Applies calculation logic and formulas
+
+   * Applies calculation logic and formulas
 
 4. **Output Rendering**
-   - Displays results clearly to the user
 
-This workflow aligns with common data processing pipelines used in real-world applications :contentReference[oaicite:1]{index=1}.
+   * Displays computed results in real-time
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- (Optional: Any framework/library if used)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
 ---
 
 ## 📂 Project Structure
 
-
+```
 Life-Cal/
 │── CS3773/
-│ └── life cal/
-│ ├── index.html # Main interface
-│ ├── style.css # UI styling
-│ ├── script.js # Core logic
-│ └── (other assets)
-
+│   └── life cal/
+│       ├── index.html        # Main interface
+│       ├── style.css         # Styling
+│       ├── script.js         # Core logic
+│       └── assets/           # Images / resources (if any)
+```
 
 ---
 
@@ -84,46 +87,101 @@ Life-Cal/
 ```bash
 git clone https://github.com/May12365/Life-Cal.git
 cd Life-Cal
+```
 
-Open the project in your browser:
+Open the application:
 
+```bash
+# Open manually
 index.html
+```
+
+Or run using a local development server (recommended):
+
+```bash
+python -m http.server
+```
+
+Then open:
+
+```
+http://localhost:8000
+```
 
 ---
 
 ## 🎮 Usage
 
-Enter the required input data
-The system processes the input using predefined logic
-Results are calculated and displayed instantly
-Modify input values to explore different outcomes
+1. Enter the required input values
+2. The system processes the input using predefined logic
+3. Results are calculated and displayed instantly
+4. Adjust input values to explore different outcomes
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deployment (GitHub Pages)
 
-To deploy using GitHub Pages:
+1. Go to **Settings → Pages**
+2. Select:
 
-Go to Settings → Pages
-Select:
-Branch: main
-Folder: /root
-Save
+   * Branch: `main`
+   * Folder: `/root`
+3. Click **Save**
+
+Your project will be available at:
+
+```
+https://<your-username>.github.io/Life-Cal/
+```
+
+---
+
+## 📸 Demo
+
+> Add a GIF or screenshot here to demonstrate the application (recommended for portfolio)
 
 ---
 
 ## 🔮 Future Improvements
 
-📊 Advanced analytics dashboard
-🌐 API integration
-📱 Mobile responsiveness
-🎨 UI/UX enhancements
-🧠 More complex calculation models
-🤝 Contributing
+* 📊 Advanced analytics dashboard
+* 📱 Mobile responsiveness
+* 🎨 UI/UX enhancements
+* 🌐 API integration
+* 🧠 More advanced calculation models
 
-📜 License
+---
 
-This project is created for **educational and portfolio purposes**.
+## 🤝 Contributing
 
-👤 Author
-GitHub: https://github.com/May12365
+Contributions are welcome:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Submit a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👤 Author
+
+* GitHub: https://github.com/May12365
+
+---
+
+## ⭐ Portfolio Highlights
+
+This project demonstrates:
+
+* Strong **problem-solving and algorithm design**
+* Understanding of **data processing workflows**
+* Ability to structure a **modular application**
+* Practical experience in **JavaScript-based computation systems**
+
+---
