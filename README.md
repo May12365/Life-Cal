@@ -67,15 +67,17 @@
 ![Food List](screenshots/food-list.png)
 *Browse and log food items by category*
 
+### Food log
 ![Daily Food Log](screenshots/daily-food-log.png)
 *View and manage daily food intake*
 
 ### Exercise Management
-![Food List](exercise-list.png)
+![Food List](screenshots/exercise-list.png)
 *Browse and log exercise items by category*
 
-![Exercise List](screenshots/exercise-list.png)
-*Browse and log exercise activities*
+### Exercise Log
+![Exercise List](screenshots/daily-exercise-log.png)
+*View and manage daily exercise intake*
 
 ### Reports
 ![Calorie Report](screenshots/calorie-report.png)
