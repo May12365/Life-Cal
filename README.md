@@ -57,6 +57,12 @@
 ![Dashboard](screenshots/dashboard.png)
 *Main dashboard showing health metrics and quick access to features*
 
+### Registration
+![Dashboard](screenshots/registration.png)
+
+### Login
+![Dashboard](screenshots/login.png)
+
 ### Food Management
 ![Food List](screenshots/food-list.png)
 *Browse and log food items by category*
@@ -65,6 +71,9 @@
 *View and manage daily food intake*
 
 ### Exercise Management
+![Food List](exercise-list.png)
+*Browse and log exercise items by category*
+
 ![Exercise List](screenshots/exercise-list.png)
 *Browse and log exercise activities*
 
