@@ -5,7 +5,6 @@
 [![JavaFX](https://img.shields.io/badge/JavaFX-23.0.1-blue.svg)](https://openjfx.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-3.x-green.svg)](https://www.sqlite.org/)
 [![Maven](https://img.shields.io/badge/Maven-3.9+-red.svg)](https://maven.apache.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -244,19 +243,18 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is created for **educational and portfolio purposes**.
+
+---
+
+## 👤 Author
+
+* GitHub: https://github.com/May12365
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
----
 
 ## 🙏 Acknowledgments
 
@@ -264,14 +262,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - SQLite for reliable embedded database
 - BCrypt for secure password hashing
 - All contributors and testers
-
----
-
-## 📮 Contact & Support
-
-For questions, issues, or suggestions:
-- Open an issue on GitHub
-- Email: support@lifecal.example.com
 
 ---
 
