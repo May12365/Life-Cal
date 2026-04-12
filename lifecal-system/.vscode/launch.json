@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run LIFE CAL (Recommended)",
+            "request": "launch",
+            "mainClass": "com.lifecal.LifeCalApp",
+            "projectName": "lifecal-system",
+            "vmArgs": "--module-path ${command:maven.java.mainClass} --add-modules javafx.controls,javafx.fxml",
+            "console": "integratedTerminal"
+        }
+    ]
+}

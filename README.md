@@ -1,176 +1,289 @@
-# 📊 Life Calculator (Life-Cal)
+# 🏃 LIFE CAL System
+### Health Tracking & Calorie Management Desktop Application
 
-![GitHub repo size](https://img.shields.io/github/repo-size/May12365/Life-Cal)
-![GitHub stars](https://img.shields.io/github/stars/May12365/Life-Cal?style=social)
-![GitHub forks](https://img.shields.io/github/forks/May12365/Life-Cal?style=social)
-
-
-A structured **Life Calculation System** designed to process user input and compute meaningful life-related metrics using algorithmic logic.
-This project demonstrates problem-solving, modular design, and real-world data processing concepts.
-
----
-
-## 🌐 Live Demo
-
-👉 https://<your-username>.github.io/Life-Cal/
+[![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.org/)
+[![JavaFX](https://img.shields.io/badge/JavaFX-23.0.1-blue.svg)](https://openjfx.io/)
+[![SQLite](https://img.shields.io/badge/SQLite-3.x-green.svg)](https://www.sqlite.org/)
+[![Maven](https://img.shields.io/badge/Maven-3.9+-red.svg)](https://maven.apache.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-**Life-Cal** is a lightweight web-based application that calculates life-related values (such as time-based metrics or derived results) from user input.
-
-The project is designed with a focus on:
-
-* Clean and maintainable code structure
-* Logical separation between input, processing, and output
-* Scalability for future feature expansion
+**LIFE CAL System** is a comprehensive desktop application built with JavaFX for tracking health metrics, managing calorie intake, monitoring exercise activities, and visualizing weight progress. Designed for individuals who want to maintain a healthy lifestyle through systematic tracking and data-driven insights.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* 📊 Dynamic calculations based on user input
-* 🧮 Algorithm-driven processing
-* ⚡ Instant result rendering
-* 📁 Modular and organized codebase
-* 💻 Simple and user-friendly interface
+### 🔐 User Management
+- **Registration & Login** with secure password hashing (BCrypt)
+- **Profile Management** with customizable health information
+- **Session Management** for secure user data access
 
----
+### 📊 Health Tracking
+- **BMI Calculator** - Body Mass Index calculation and categorization
+- **BMR Calculator** - Basal Metabolic Rate estimation
+- **Weight Progress Tracking** - Visual progress toward weight goals
+- **TDEE Calculation** - Total Daily Energy Expenditure based on activity level
 
-## 🧠 System Workflow
+### 🍽️ Food Management
+- **Food Database** with 150+ food items across 7 categories
+- **Food Logging** - Record daily meals with date, meal time, and quantity
+- **Nutrition Tracking** - Track calories, protein, carbohydrates, and fat intake
+- **Daily Food Log** - View and manage food consumption history
 
-The system follows a structured processing pipeline:
+### 🏋️ Exercise Management
+- **Exercise Database** with 60+ activities across 5 categories
+- **Exercise Logging** - Record workouts with duration and calories burned
+- **Daily Exercise Log** - Track and review exercise history
 
-1. **Input Handling**
+### ⚖️ Weight Management
+- **Weight Logging** - Record daily weight measurements
+- **Weight History** - Track weight changes over time
+- **Automatic Profile Update** - Sync latest weight with user profile
 
-   * Collects user input (e.g., date or numerical values)
-
-2. **Data Processing**
-
-   * Validates and transforms input into a usable format
-
-3. **Computation Engine**
-
-   * Applies calculation logic and formulas
-
-4. **Output Rendering**
-
-   * Displays computed results in real-time
-
----
-
-## 🛠️ Tech Stack
-
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
+### 📈 Analytics & Reports
+- **Calorie Report** - Compare calorie intake vs. calories burned with interactive charts
+- **Weight Trend Report** - Visualize weight progress with line graphs
+- **Custom Date Ranges** - Filter reports by specific time periods
+- **Quick Filters** - 7 days, 30 days, or current month views
 
 ---
 
-## 📂 Project Structure
+## 🖼️ Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+*Main dashboard showing health metrics and quick access to features*
+
+### Food Management
+![Food List](screenshots/food-list.png)
+*Browse and log food items by category*
+
+![Daily Food Log](screenshots/daily-food-log.png)
+*View and manage daily food intake*
+
+### Exercise Management
+![Exercise List](screenshots/exercise-list.png)
+*Browse and log exercise activities*
+
+### Reports
+![Calorie Report](screenshots/calorie-report.png)
+*Calorie intake vs. burned analysis with charts*
+
+![Weight Report](screenshots/weight-report.png)
+*Weight trend visualization over time*
+
+---
+
+## 🛠️ Technology Stack
+
+- **Java 17** - Core programming language
+- **JavaFX 23.0.1** - Modern UI framework
+- **SQLite 3.x** - Embedded database
+- **Maven 3.9+** - Build and dependency management
+- **BCrypt** - Password hashing for security
+
+### Design Patterns
+- **Singleton Pattern** - Session and Database management
+- **Repository Pattern** - Data access layer
+- **MVC Architecture** - Clean separation of concerns
+
+---
+
+## 📦 Project Structure
 
 ```
-Life-Cal/
-│── CS3773/
-│   └── life cal/
-│       ├── index.html        # Main interface
-│       ├── style.css         # Styling
-│       ├── script.js         # Core logic
-│       └── assets/           # Images / resources (if any)
-```
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/May12365/Life-Cal.git
-cd Life-Cal
-```
-
-Open the application:
-
-```bash
-# Open manually
-index.html
-```
-
-Or run using a local development server (recommended):
-
-```bash
-python -m http.server
-```
-
-Then open:
-
-```
-http://localhost:8000
-```
-
----
-
-## 🎮 Usage
-
-1. Enter the required input values
-2. The system processes the input using predefined logic
-3. Results are calculated and displayed instantly
-4. Adjust input values to explore different outcomes
-
----
-
-## 🚀 Deployment (GitHub Pages)
-
-1. Go to **Settings → Pages**
-2. Select:
-
-   * Branch: `main`
-   * Folder: `/root`
-3. Click **Save**
-
-Your project will be available at:
-
-```
-https://<your-username>.github.io/Life-Cal/
+lifecal-system/
+├── src/
+│   ├── main/
+│   │   ├── java/com/lifecal/
+│   │   │   ├── controller/     # UI Controllers
+│   │   │   ├── model/          # Data Models
+│   │   │   ├── service/        # Business Logic
+│   │   │   ├── repository/     # Database Access
+│   │   │   ├── common/         # Utilities & Managers
+│   │   │   └── util/           # Helper Classes
+│   │   └── resources/
+│   │       ├── fxml/           # UI Layouts
+│   │       └── css/            # Stylesheets
+│   └── test/                   # Unit Tests
+├── database/                   # SQLite Database
+├── pom.xml                     # Maven Configuration
+└── README.md
 ```
 
 ---
 
-## 📸 Demo
+## 🚀 Getting Started
 
-> Add a GIF or screenshot here to demonstrate the application (recommended for portfolio)
+### Prerequisites
+
+- Java Development Kit (JDK) 17 or higher
+- Maven 3.9 or higher
+- Git (optional)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/lifecal-system.git
+   cd c:\LifeCal\lifecal-system
+   ```
+
+2. **Build the project**
+   ```bash
+   mvn clean install
+   ```
+
+3. **Run the application**
+   ```bash
+   mvn javafx:run
+   ```
+
+### First-Time Setup
+
+1. Register a new account on the registration page
+2. Complete your profile with health information
+3. Start tracking your food, exercise, and weight!
+
+### Default Admin Account (Optional)
+- **Username:** `admin`
+- **Password:** `admin123`
 
 ---
 
-## 🔮 Future Improvements
+## 📊 Database Schema
 
-* 📊 Advanced analytics dashboard
-* 📱 Mobile responsiveness
-* 🎨 UI/UX enhancements
-* 🌐 API integration
-* 🧠 More advanced calculation models
+### Core Tables
+- `users` - User profiles and credentials
+- `foods` - Food database with nutritional information
+- `exercises` - Exercise database with calorie rates
+- `food_logs` - Daily food intake records
+- `exercise_logs` - Daily exercise records
+- `weight_logs` - Weight measurement history
+
+---
+
+## 🎨 Features in Detail
+
+### 1. User Registration & Authentication
+- Secure password storage with BCrypt hashing
+- Email validation (optional field)
+- Comprehensive health profile setup
+
+### 2. Health Metrics Calculation
+- **BMI (Body Mass Index)**: `weight (kg) / height (m)²`
+- **BMR (Basal Metabolic Rate)**: Mifflin-St Jeor equation
+- **TDEE**: BMR × Activity Level multiplier
+- **Progress**: `(current - start) / (target - start) × 100%`
+
+### 3. Food & Exercise Tracking
+- **7 Food Categories**: Meat, Vegetables, Fruits, Grains, Dairy, Snacks, Beverages
+- **5 Exercise Categories**: Walking, Running, Conditioning, Sports, Dancing
+- Real-time calorie calculation
+- Duplicate prevention (one entry per day for weight)
+
+### 4. Reporting & Analytics
+- Interactive line charts (JavaFX LineChart)
+- Date range filtering
+- Quick period selections
+- Summary statistics
+
+---
+
+## 🔧 Configuration
+
+### Database Location
+The SQLite database is stored in:
+```
+database/lifecal.db
+```
+
+### Application Settings
+- Window size: 1200×800 (default)
+- Theme: Light mode only
+- Language: Thai (ภาษาไทย)
+
+---
+
+## 📝 Usage Examples
+
+### Adding a Food Entry
+1. Navigate to **Food Management** from Dashboard
+2. Select a food category
+3. Choose meal time, date, and quantity
+4. Click **Log** button
+5. View in **Daily Food Log**
+
+### Tracking Weight
+1. Click **Weight Log** from Dashboard
+2. Select date and enter weight
+3. Click **Add Entry**
+4. View progress in **Weight Report**
+
+### Generating Reports
+1. Go to **Reports** section
+2. Select date range or use quick filters
+3. View statistics and charts
+4. Use refresh button to update data
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome:
+Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project is created for **educational and portfolio purposes**.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: your.email@example.com
 
 ---
 
-## 👤 Author
+## 🙏 Acknowledgments
 
-* GitHub: https://github.com/May12365
+- JavaFX Community for excellent UI framework
+- SQLite for reliable embedded database
+- BCrypt for secure password hashing
+- All contributors and testers
 
 ---
+
+## 📮 Contact & Support
+
+For questions, issues, or suggestions:
+- Open an issue on GitHub
+- Email: support@lifecal.example.com
+
+---
+
+## 🗓️ Version History
+
+### v1.0.0 (2025-11-27)
+- Initial release
+- Complete health tracking system
+- Food and exercise management
+- Weight tracking and reporting
+- Interactive analytics dashboard
+
+---
+
+**Made with ❤️ for healthy living**
