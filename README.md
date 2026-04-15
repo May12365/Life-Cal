@@ -1,8 +1,8 @@
 # 🏃 LIFE CAL System
 ### Health Tracking & Calorie Management Desktop Application
 
-![GitHub repo size](https://img.shields.io/github/repo-size/May12365/TypingTestGame)
-![GitHub stars](https://img.shields.io/github/stars/May12365/TypingTestGame?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/May12365/Life-Cal)
+![GitHub stars](https://img.shields.io/github/stars/May12365/Life-Cal?style=social)
 [![Java](https://img.shields.io/badge/Java-17-orange.svg)](https://openjdk.org/)
 [![JavaFX](https://img.shields.io/badge/JavaFX-23.0.1-blue.svg)](https://openjfx.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-3.x-green.svg)](https://www.sqlite.org/)
